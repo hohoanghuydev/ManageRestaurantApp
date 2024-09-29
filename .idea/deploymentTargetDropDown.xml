@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetDropDown">
+    <value>
+      <entry key="CustomerMainActivity">
+        <State />
+      </entry>
+      <entry key="DangNhapActivity">
+        <State />
+      </entry>
+      <entry key="DinningTableMainActivity">
+        <State />
+      </entry>
+      <entry key="LoaiMonAnActivity">
+        <State />
+      </entry>
+      <entry key="RevenueActivity">
+        <State />
+      </entry>
+      <entry key="app">
+        <State />
+      </entry>
+    </value>
+  </component>
+</project>

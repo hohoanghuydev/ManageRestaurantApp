@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imgDish"
+        android:layout_width="124dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/fastfood" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/imgDish"
+        android:text="Lau hai san"
+        android:textColor="#006769"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvUnitPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvQuantity"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@id/imgDish"
+        android:text="Thành tiền: 500000"
+        android:textColor="#006769"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvName"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@id/imgDish"
+        android:text="Số lượng: 11"
+        android:textColor="#006769"
+        android:textSize="20sp" />
+</RelativeLayout>

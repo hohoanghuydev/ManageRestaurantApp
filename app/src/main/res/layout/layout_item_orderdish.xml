@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgDish"
+        android:layout_width="125dp"
+        android:layout_height="118dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/fastfood" />
+
+    <TextView
+        android:id="@+id/tvNameDish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/imgDish"
+        android:text="TextView"
+        android:textColor="#006769"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNameDish"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/imgDish"
+        android:text="100000"
+        android:textColor="#006769"
+        android:textSize="24sp" />
+</RelativeLayout>

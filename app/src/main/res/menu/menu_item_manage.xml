@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemDish"
+        android:icon="@drawable/baseline_manage_accounts_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Manage Dishes" />
+    <item
+        android:id="@+id/itemCategory"
+        android:icon="@drawable/baseline_manage_accounts_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Manage Categories" />
+    <item
+        android:id="@+id/itemTable"
+        android:icon="@drawable/baseline_manage_accounts_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Manage Tables" />
+    <item
+        android:id="@+id/itemCustomer"
+        android:icon="@drawable/baseline_manage_accounts_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Manage Customers" />
+    <item
+        android:id="@+id/itemRevenue"
+        android:icon="@drawable/baseline_manage_accounts_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Revenue" />
+
+    <item
+        android:id="@+id/itemLogout"
+        android:icon="@drawable/baseline_manage_accounts_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Logout" />
+</menu>
