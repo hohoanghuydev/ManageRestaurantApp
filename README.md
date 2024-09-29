@@ -1,2 +1,2 @@
-# ManageRestaurantApp
- Android app restaurant management
+# Restaurant Management App
+Android app restaurant management
